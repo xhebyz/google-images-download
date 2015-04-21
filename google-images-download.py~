@@ -97,7 +97,7 @@ while i<len(search_keyword):
     info.write(str(items) + "\n\n\n")         #Write the title of the page
     info.close() 
 
-    nPath = 'images/' + str(search_keyword[i-1])
+    nPath = 'imagenes/' + str(search_keyword[i-1])
     if not os.path.exists(nPath):
     	os.makedirs(nPath)
 

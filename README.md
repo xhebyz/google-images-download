@@ -2,7 +2,7 @@
 Python Script for 'searching' and 'downloading' hundreds of Google images/image links!
 
 ## Summary
-This is a Python program to search keywords/key-phrases on Google Images and then also optionally download all Images. 
+This is a Python program to search keywords/key-phrases on Google Images and download the image. 
 
 ## Compatability
 This program is written in Python 3.4 and can run on any version of Ptyhon (3.x). It is a download-and-run program with couple of changes according to requirements.
@@ -11,13 +11,10 @@ This program is written in Python 3.4 and can run on any version of Ptyhon (3.x)
 This is a small program which is ready-to-run, but still under development. Many more features will be added to it shortly.
 
 ## Usage
-`search_keyword = ['Taj Mahal', 'Pyramid of Giza']`
+`pyhton3 google-image-download.py [search_keywords] `
 
-This list is used to search keywords. You can edit this list to search for google images of your choice. You can simply add and remove elements of the list.
-
-`keywords = [' high resolution',' paintings',' at night',' from top']`
-
-This list is used to further add suffix to your search term. Each element of the list will help you download 100 images. First element is blank which denotes that no suffix is added to the search keyword of the above list. You can edit the list by adding/deleting elements from it.So if the first element of the search_keyword is 'Australia' and the first element of keywords is 'high resolution' as shown above, then it will search for 'Australia High Resolution' images.
+For many elements for search keyword is need represent this at a list type.
+`pyhton3 google-image-download.py 'chile', 'gato', 'perro', 'perros y gatos' `
 
 
 ## Disclaimer
